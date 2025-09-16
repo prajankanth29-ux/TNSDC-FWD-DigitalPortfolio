@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Brush Script MT', cursive;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  color: #333;
+  text-align: center;
+}
+.profile-img {
+  width: 200px;      /* you can adjust size */
+  height: 200px;     /* keep width & height equal */
+  border-radius: 50%;  /* makes it a perfect circle */
+  object-fit: cover;   /* keeps image proportion correct */
+  border: 5px solid #ff6f61; /* optional stylish border */
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3); /* optional shadow */
+}
+
+/* Header */
+header {
+  background: #ff6f61;
+  padding: 20px;
+  color: white;
+}
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+header .tagline {
+  font-size: 1.5em;
+  font-style: italic;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #ffe082;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+}
+h2 {
+  font-size: 2.5em;
+  color: #d84315;
+}
+.highlight {
+  color: #6a1b9a;
+  font-weight: bold;
+}
+
+/* Project Cards */
+.project-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Form */
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+input, textarea, button {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+button {
+  background: #ff6f61;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #e64a19;
+}
+
+/* Footer */
+footer {
+  background: #ff6f61;
+  color: white;
+  padding: 15px;
+}
